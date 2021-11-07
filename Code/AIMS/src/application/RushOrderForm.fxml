@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="48.0" fitWidth="59.0" layoutX="18.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../image/logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="74.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RUSH ORDER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.48627451062202454" blue="0.9411764740943909" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.8745098114013672" blue="0.8470588326454163" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="301.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lý Trung Kiên - 20173207" />
+      <Pane layoutX="25.0" layoutY="85.0" prefHeight="246.0" prefWidth="299.0" style="-fx-background-color: #fff;">
+         <children>
+            <Separator layoutX="7.0" layoutY="121.0" prefHeight="4.0" prefWidth="285.0" />
+            <ImageView fitHeight="94.0" fitWidth="79.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../image/book4.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#090909" layoutX="150.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rush order:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#52c41a" layoutX="252.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yes">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="150.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="149.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" />
+            <Text fill="#090909" layoutX="196.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="87,000 VNĐ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#090909" layoutX="255.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="94.0" fitWidth="79.0" layoutX="14.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../image/book5.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#090909" layoutX="150.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rush order:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#f5222d" layoutX="253.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="150.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="149.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" />
+            <Text fill="#090909" layoutX="196.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="258,000 VNĐ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#090909" layoutX="255.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="344.0" layoutY="85.0" prefHeight="246.0" prefWidth="308.0" style="-fx-background-color: #fff;">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery time:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery instruction:" wrappingWidth="75.79687500000011">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <DatePicker layoutX="117.0" layoutY="10.0" prefHeight="25.0" prefWidth="177.0" />
+            <TextArea layoutX="117.0" layoutY="61.0" prefHeight="165.0" prefWidth="177.0" />
+         </children>
+      </Pane>
+      <Button layoutX="251.0" layoutY="360.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #f5222d;" text="Confirm Rush Order" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

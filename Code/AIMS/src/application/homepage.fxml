@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="66.0" prefHeight="159.0" prefWidth="600.0" style="-fx-border-color: #f0f0f0; -fx-border-style: sold;">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BOOK">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+            <Pane layoutX="8.0" layoutY="34.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+               <children>
+                  <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="14.0" layoutY="30.0">
+                     <image>
+                        <Image url="@../../../../../image/book1.PNG" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 1" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                  <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                  <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+                  <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+               </children>
+            </Pane>
+            <Pane layoutX="155.0" layoutY="34.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+               <children>
+                  <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+                     <image>
+                        <Image url="@../../../../../image/book3.PNG" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 2" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                  <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                  <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+                  <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+               </children>
+            </Pane>
+            <Pane layoutX="301.0" layoutY="34.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="40.0" layoutX="6.0" layoutY="28.0">
+                     <image>
+                        <Image url="@../../../../../image/book2.PNG" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 3" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                  <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                  <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+                  <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+               </children>
+            </Pane>
+            <Pane layoutX="449.0" layoutY="34.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+                     <image>
+                        <Image url="@../../../../../image/book1.PNG" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 4" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                  <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                  <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+                  <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #f0f0f0;">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../image/logo_text.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="173.0" layoutY="23.0" prefHeight="25.0" prefWidth="225.0" />
+            <Button layoutX="412.0" layoutY="22.0" mnemonicParsing="false" text="Search" />
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="539.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../image/shopping-cart.png" />
+               </image>
+            </ImageView>
+            <Circle layoutX="564.0" layoutY="23.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color green="0.48627451062202454" blue="0.9411764740943909" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color green="0.8745098114013672" blue="0.8470588326454163" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Text fill="WHITE" layoutX="561.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="10.13671875">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="183.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lý Trung Kiên - 20173207" />
+         </children>
+      </Pane>
+      <Text layoutX="14.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Separator layoutX="13.0" layoutY="244.0" prefHeight="0.0" prefWidth="573.0" />
+      <Pane layoutX="7.0" layoutY="254.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="14.0" layoutY="30.0">
+               <image>
+                  <Image url="@../../../../../image/book1.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD1" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="154.0" layoutY="254.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book3.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 2" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="254.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="40.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book2.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 3" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="448.0" layoutY="254.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book1.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 4" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Text layoutX="15.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Separator layoutX="14.0" layoutY="403.0" prefHeight="0.0" prefWidth="573.0" />
+      <Pane layoutX="8.0" layoutY="413.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="14.0" layoutY="30.0">
+               <image>
+                  <Image url="@../../../../../image/book1.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD1" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="155.0" layoutY="413.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="64.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book3.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD2" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="301.0" layoutY="413.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="40.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book2.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD3" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+      <Pane layoutX="449.0" layoutY="413.0" prefHeight="123.0" prefWidth="143.0" style="-fx-background-color: #ffffff; -fx-border-color: #f5f5f5;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="41.0" layoutX="6.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../../image/book1.PNG" />
+               </image>
+            </ImageView>
+            <Text fill="#007cf0" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD4" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+            <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+            <Text layoutX="113.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="289">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="113.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Text>
+            <Spinner layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="59.0" />
+            <Button layoutX="73.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Add" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

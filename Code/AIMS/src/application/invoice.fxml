@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="48.0" fitWidth="59.0" layoutX="24.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../image/logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="80.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INVOICE">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.48627451062202454" blue="0.9411764740943909" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.8745098114013672" blue="0.8470588326454163" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="250.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lý Trung Kiên - 20173207" />
+      <Separator layoutX="334.0" layoutY="89.0" orientation="VERTICAL" prefHeight="221.0" prefWidth="0.0" />
+      <Text layoutX="39.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping instruction" wrappingWidth="77.86817169189453">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="137.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fullname">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="137.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0987654321">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="137.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hanoi">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="137.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="137.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping instruction">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="368.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="368.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping fees" wrappingWidth="99.86817169189453">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="368.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100,000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20,000">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#f5222d" layoutX="556.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="120,000">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#1890ff" layoutX="592.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VNĐ" />
+      <Button layoutX="254.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #f5222d;" text="Confirm Order" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
